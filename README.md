@@ -2,7 +2,7 @@
 
 Um projeto simples de Lista de Metas desenvolvido em JavaScript e Node.js, que permite ao usuário gerenciar suas metas de forma eficiente, onde toda a interação é realizada pelo terminal.
 
-
+![Demonstração do Projeto](assets/nlw-pocket-js.gif)
 
 ## 🛠️ Tecnologias Utilizadas
 
@@ -49,6 +49,12 @@ node index.js
 
 ## 📂 Estrutura do Projeto 
 
-- `src/`: Código-fonte do projeto.
-- `data/`: Arquivo JSON onde as metas são armazenadas.
 - `index.js`: Arquivo principal que executa o programa.
+- `metas.json`: Arquivo JSON onde as metas são armazenadas.
+
+## 📞 Contato 
+
+<div>
+    <a href="https://www.linkedin.com/in/joschonarth/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
+    <a href="mailto:joschonarth@gmail.com" target="_blank"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
+</div>
