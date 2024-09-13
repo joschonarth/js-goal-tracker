@@ -26,23 +26,22 @@ Um projeto simples de Lista de Metas desenvolvido em JavaScript e Node.js, que p
 
 ## 🚀 Como Rodar o Projeto
 
-1. Clone o repositório:
+📌 1. Clone o repositório:
 
 ```bash
 git clone https://github.com/joschonarth/nlw-pocket-js
 ```
 
-2. Navegue até o diretório do projeto:
+📌 2. Navegue até o diretório do projeto:
 ```bash
 cd nlw-pocket-js
 ```
 
-3. Instale as dependências:
+📌 3. Instale as dependências:
 ```bash
 npm install
 ```
-
-4. Execute o programa:
+📌 4. Execute o programa:
 ```bash
 node index.js
 ```
