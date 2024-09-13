@@ -11,7 +11,7 @@ Um projeto simples de Lista de Metas desenvolvido em JavaScript e Node.js, que p
 - **JSON**: Formato para armazenar as metas.
 - **[inquirer](https://www.npmjs.com/package/inquirer)**: Biblioteca para criar prompts interativos e amigáveis, melhorando a experiência do usuário.
 
-## Funcionalidades
+## ⚙️ Funcionalidades
 
 - 📝 **Cadastro de Metas**: Cadastre suas metas, que serão armazenadas no arquivo JSON.
 - 📖 **Exibição e Conclusão de Metas**: Visualize todas as metas do usuário e marque como concluídas ou não.
@@ -20,9 +20,9 @@ Um projeto simples de Lista de Metas desenvolvido em JavaScript e Node.js, que p
 - ❌ **Remoção de Metas**: Permite deletar metas, removendo-as também do arquivo JSON.
 - 🏃‍♂️ **Encerrar o Programa**: Selecione "Sair" para encerrar o programa. Os dados são preservados no arquivo JSON, mesmo após o encerramento.
 
-## Requisitos
+## ✅ Requisitos
 
-- Node.js
+- [<img src="https://skillicons.dev/icons?i=nodejs&theme=dark" width="25" align="center">](https://nodejs.org/) Node.js
 
 ## 🚀 Como Rodar o Projeto
 
