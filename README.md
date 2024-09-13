@@ -1,84 +1,54 @@
-## Linguagem de programação
+# 📝 Lista de Metas
 
-Maneira de dar instrução ao computador.
-Como um lego, você irá utilizar peças para criar algoritmos, ou seja, para resolver problemas.
+Um projeto simples de Lista de Metas desenvolvido em JavaScript e Node.js, que permite ao usuário gerenciar suas metas de forma eficiente, onde toda a interação é realizada pelo terminal.
 
-> 💡 **Algoritmo**: Sequência de passos lógica e finita para resolução de um problema.
 
-## Peças de uma linguagem
 
-- Comentários
-- Declaração de variáveis (const, let)
-- Operadores (atribuição, concatenação, matemáticos, lógicos )
-- Tipos de dados (string, number, boolean)
-- Estrutura de dados (functions, object, array)
-- Controle de fluxo (if/else)
-- Estrutura de repetição (for, while)
+## 🛠️ Tecnologias Utilizadas
 
-# Fases da resolução de um problema
+- **JavaScript**: Linguagem de programação principal do projeto.
+- **Node.js**: Ambiente de execução para JavaScript no lado do servidor.
+- **JSON**: Formato para armazenar as metas.
+- **[inquirer](https://www.npmjs.com/package/inquirer)**: Biblioteca para criar prompts interativos e amigáveis, melhorando a experiência do usuário.
 
-Coletar os dados
-Processar os dados (manipular, alterar ...)
-Apresentar os dados
+## Funcionalidades
 
-## Escopo e variáveis:
+- 📝 **Cadastro de Metas**: Cadastre suas metas, que serão armazenadas no arquivo JSON.
+- 📖 **Exibição e Conclusão de Metas**: Visualize todas as metas do usuário e marque como concluídas ou não.
+- ✅ **Metas Concluídas**: Exibe todas as metas que foram concluídas.
+- ⭕ **Metas Abertas**: Exibe todas as metas que ainda estão pendentes.
+- ❌ **Remoção de Metas**: Permite deletar metas, removendo-as também do arquivo JSON.
+- 🏃‍♂️ **Encerrar o Programa**: Selecione "Sair" para encerrar o programa. Os dados são preservados no arquivo JSON, mesmo após o encerramento.
 
-- [x] Variáveis globais e locais
-- [x] Constantes
+## Requisitos
 
-## Tipos de dados:
+- Node.js
 
-- [x] Strings (texto): "" '' ``
-- [x] Numbers: 2 1.4
-- [x] Boolean: true, false
+## 🚀 Como Rodar o Projeto
 
-# Operadores
+1. Clone o repositório:
 
-- [x] Operadores de atribuição de valor: =
-- [x] Operador de contatenação: +
-- [x] Operadores de comparação: == != <= >= < >
-- [x] Spread operator: ...
+```bash
+git clone https://github.com/joschonarth/nlw-pocket-js
+```
 
-## Estruturas de dados:
+2. Navegue até o diretório do projeto:
+```bash
+cd nlw-pocket-js
+```
 
-### Arrays: 
+3. Instale as dependências:
+```bash
+npm install
+```
 
-- [x] Uma lista que contém qualquer tipo de dado
-- [x] Métodos de array: push, [find, forEach, filter, map] : HOF (Higher Order Functions)
+4. Execute o programa:
+```bash
+node index.js
+```
 
-### Objetos:
+## 📂 Estrutura do Projeto 
 
-- [x] Atributos e métodos
-- [x] Criação e manipulação de objetos
-- [x] Acesso a propriedades de objetos
-
-### Functions
-
-- [x] criar, passar argumento
-- [x] excutar
-- [x] arrow function / named function
-
-# Estrutura de repetição
-
-- [x] while
-
-# Condicionais
-
-- [x] switch
-- [x] if/else
-
-## Módulos em Node.js:
-
-- [x] Importação de módulos (require, CommonJS)
-- [x] Biblioteca 'inquirer' para criar prompts interativos
-- [x] FS (file system)
-
-## JSON
-
-- [x] Javascript Object Notation (.json)
-- [x] JSON.parse(): transforma de JSON para JS
-- [x] JSON.stringify(): transforma de JS para JSON
-
-## Programação assíncrona e Promises:
-
-- [x] Uso de funções assíncronas (async/await)
+- `src/`: Código-fonte do projeto.
+- `data/`: Arquivo JSON onde as metas são armazenadas.
+- `index.js`: Arquivo principal que executa o programa.
