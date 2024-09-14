@@ -2,6 +2,8 @@
 
 Um projeto simples de Lista de Metas desenvolvido em JavaScript e Node.js, que permite ao usuário gerenciar suas metas de forma eficiente, onde toda a interação é realizada pelo terminal.
 
+## 🎥 Demonstração
+
 ![Demonstração do Projeto](assets/nlw-pocket-js.gif)
 
 ## 🛠️ Tecnologias Utilizadas
