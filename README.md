@@ -4,7 +4,7 @@ Um projeto simples de Lista de Metas desenvolvido em JavaScript e Node.js, que p
 
 ## 🎥 Demonstração
 
-![Demonstração do Projeto](assets/nlw-pocket-js.gif)
+![Demonstração do Projeto](assets/js-goal-tracker.gif)
 
 ## 🛠️ Tecnologias Utilizadas
 
@@ -31,12 +31,12 @@ Um projeto simples de Lista de Metas desenvolvido em JavaScript e Node.js, que p
 📌 1. Clone o repositório:
 
 ```bash
-git clone https://github.com/joschonarth/nlw-pocket-js
+git clone https://github.com/joschonarth/js-goal-tracker
 ```
 
 📌 2. Navegue até o diretório do projeto:
 ```bash
-cd nlw-pocket-js
+cd js-goal-tracker
 ```
 
 📌 3. Instale as dependências:
